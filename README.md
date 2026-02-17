@@ -34,7 +34,7 @@ cp -r path/to/claude-skills/.claude/skills/. ~/.claude/skills/
 
 | Skill | Description |
 |-------|-------------|
-| *(coming soon)* | |
+| `todo` | Writes deferred tasks, bugs, and tech debt to `TODO.md` so future sessions have full context |
 
 ## Docs
 
