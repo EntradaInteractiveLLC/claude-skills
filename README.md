@@ -10,12 +10,12 @@ Skills are reusable prompt templates that extend Claude Code with specialized wo
 
 ### Install a single skill
 
-Copy the desired `.md` file from `.claude/skills/` into your project's `.claude/skills/` folder:
+Copy the desired skill's folder into your project's `.claude/skills/` directory:
 
 ```bash
 # From your project root
-mkdir -p .claude/skills
-cp path/to/claude-skills/.claude/skills/skill-name.md .claude/skills/
+mkdir -p .claude/skills/skill-name
+cp path/to/claude-skills/.claude/skills/skill-name/SKILL.md .claude/skills/skill-name/SKILL.md
 ```
 
 ### Install all skills globally
