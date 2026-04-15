@@ -1,6 +1,10 @@
 ---
 name: todo
 description: "Write deferred tasks, bugs, tech debt, and follow-up items to a project-specific TODO.md so future sessions have full context without needing conversation history. Use when: (1) encountering a bug or issue that is out of scope for the current task, (2) the user says things like 'note this for later', 'add this to the TODO', 'we will fix that later', 'remember to...', (3) discovering tech debt or a missing feature during implementation, (4) a task is intentionally deferred or descoped. Always write to TODO.md in the project root directory."
+keywords: todo, deferred, tasks, bugs, tech debt, later, note this
+allowed-tools: Read, Write
+source: https://github.com/EntradaInteractiveLLC/claude-skills
+author: tevans@entradainteractive.com (@lordsnave on X)
 ---
 
 # Todo
@@ -45,11 +49,11 @@ Append each new item using this exact format:
 ```markdown
 ### [PRIORITY] <Short imperative title>
 
-- **Area**: <System/domain — e.g., Mass AI, UI, Weapons, Networking, PlayFab>
+- **Area**: <System/domain — e.g., Auth, API, UI, Database, Networking>
 - **Discovered**: <YYYY-MM-DD>
 - **Context**: <1-2 sentences: what were we working on, what led to finding this?>
 - **Problem / Task**: <Specific description of what needs to be done. Be concrete — file names, function names, observed behavior, expected behavior.>
-- **Location**: <File path(s), line numbers, Blueprint asset paths, or "N/A">
+- **Location**: <File path(s), line numbers, or "N/A">
 - **Why deferred**: <Why not fixed now? e.g., "Out of scope for sprint", "Requires refactor", "Needs design decision">
 - **Approach**: <Optional — suggested fix, relevant pattern, or known gotcha>
 

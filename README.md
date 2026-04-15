@@ -35,7 +35,5 @@ cp -r path/to/claude-skills/.claude/skills/. ~/.claude/skills/
 | Skill | Description |
 |-------|-------------|
 | `todo` | Writes deferred tasks, bugs, and tech debt to `TODO.md` so future sessions have full context |
+| `step-back` | Breaks debugging doom loops — generates 5 ranked hypotheses before touching any code |
 
-## Docs
-
-See the [`docs/`](./docs/) folder for guides on usage and how to write your own skills.
